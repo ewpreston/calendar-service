@@ -1,0 +1,23 @@
+# Ignore top-level node_modules
+/node_modules
+
+# Ignore config override
+/config/config_override.json
+
+# Ignore all logfiles and tempfiles
+/log/*.log
+/log/*.out
+/tmp
+archived-logs.zip
+npm-debug.log
+
+# Ignore project files
+.project
+.idea
+
+# Ignore useless files
+*.swp
+*~
+.DS_Store
+
+

@@ -1,0 +1,12 @@
+{
+  "development":{
+    "server" : {
+      "port": 9550
+    }
+  },
+  "production":{
+    "server" : {
+      "port": 9550
+    }
+  }
+}

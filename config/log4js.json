@@ -1,0 +1,24 @@
+{
+  "appenders": [
+    {
+      "type": "console",
+      "category": "console"
+    },
+    {
+      "type": "file",
+      "category": "console",
+      "filename": "application.log",
+      "layout": {
+        "type": "basic"
+      }
+    },
+    {
+      "type": "file",
+      "category": "access",
+      "filename": "access.log",
+      "layout": {
+        "type": "messagePassThrough"
+      }
+    }
+  ]
+}

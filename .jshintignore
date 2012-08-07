@@ -1,0 +1,7 @@
+# Ignore 3rd party scripts
+node_modules
+server/node_modules
+# Ignore files in tmp
+tmp
+# Ignore files in public
+public
